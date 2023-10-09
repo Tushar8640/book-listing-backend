@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Book Catallog Backend Service",
   "main": "src/server.ts",
-  "author": "Naimur Rahman",
+  "author": "Tusar Imran",
   "license": "ISC",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
