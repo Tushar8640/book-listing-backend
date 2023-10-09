@@ -1,7 +1,7 @@
 {
   "name": "book-catalog-service",
   "version": "1.0.0",
-  "description": "Book Catallog Backend Service",
+  "description": "Book Catallog Backend ",
   "main": "src/server.ts",
   "author": "Tusar Imran",
   "license": "ISC",
