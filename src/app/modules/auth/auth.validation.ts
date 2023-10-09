@@ -18,7 +18,7 @@ const signupZodSchema = z.object({
       message: 'Email is required',
     }),
     password: z.string().min(4, { message: 'Password is too short' }),
-    role: z.enum(['ADMIN', 'CUSTOMER']).default('CUSTOMER'),
+    role: z.enum(['admin', 'customer']).default('customer'),
     contactNo: z.string().min(9, { message: 'Contact number is required' }),
     address: z.string({
       required_error: 'Address is required',
