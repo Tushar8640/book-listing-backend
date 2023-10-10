@@ -2,7 +2,7 @@
 
 **A Robust Backend Service for Managing Your Book Catalog with Authentication and Authorization**
 
-Ripository Link: https://github.com/Tushar8640/book-listing-backend
+Repository Link: https://github.com/Tushar8640/book-listing-backend
 Server Link: https://assignment-8-sooty.vercel.app/
 
 ## Tech Stack:
