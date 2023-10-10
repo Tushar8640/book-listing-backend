@@ -160,7 +160,7 @@ PARAMS EXAMPLE
 | sortBy | price |
 | sortOrder | desc |
 | search | J.D. Salinger |
-| category | ce9b5ba7-3b82-47cf-a143-a86f93920195 |
+| category | e32faaf6-c2bf-4361-9b20-622f2b87da25 |
 | minPrice | 9.9 |
 | maxPrice | 49.9 |
 
