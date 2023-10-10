@@ -40,6 +40,8 @@ const updateUser = catchAsync(async (req, res) => {
     body,
     params: { id },
   } = req;
+
+  console.log(id);
   const user = await UserService.updateUser(id, body);
 
   sendResponse(res, {
