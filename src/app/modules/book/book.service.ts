@@ -26,7 +26,7 @@ const getAllBooks = async (req: Request): Promise<IBooksWithMeta> => {
   const reqUrl = `https://example.com` + req.url.split('/')[1];
   const url = new URL(reqUrl);
   const queries = url.searchParams;
-  console.log(url, queries);
+
   // Pagination
   const page = Number(queries.get('page')) || 1;
   const take = Number(queries.get('size')) || 10;
