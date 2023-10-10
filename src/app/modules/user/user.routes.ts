@@ -29,7 +29,7 @@ router
     UserController.getUserById
   )
   .patch(
-    validateRequest(UserValidation.getOrDeleteUserZodSchema),
+    validateRequest(UserValidation.updateUserZodSchema),
     auth(ENUM_USER_ROLE.ADMIN),
     UserController.updateUser
   )
@@ -41,7 +41,7 @@ router
 
 router.patch(
   '/make-admin/:id',
-  validateRequest(UserValidation.getOrDeleteUserZodSchema),
+  validateRequest(UserValidation.updateUserZodSchema),
   auth(ENUM_USER_ROLE.ADMIN),
   UserController.makeAdmin
 );
